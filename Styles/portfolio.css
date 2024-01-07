@@ -226,6 +226,17 @@ main {
 }
 .download-cv{
     text-align: center;
+    margin-top: 50px;
 }
 
 /* Footer section styles */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 230px 130px 230px 130px ;
+    margin-top: 100px;
+}
+.social-media {
+    margin-right: 24px;
+}
