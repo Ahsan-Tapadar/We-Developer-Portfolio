@@ -35,6 +35,10 @@ body {
     padding: 20px 36px 20px 36px;
 }
 
+main section {
+    margin-bottom: 130px;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -168,4 +172,55 @@ main {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume section */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-iteam-title {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.resume-iteam-institue {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.resume-iteam-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-column {
+    max-width: 500px;
+}
+
+.hr-line {
+    width: 558px;
+    height: 1px;
+    color: #D1D1D1;;
 }
