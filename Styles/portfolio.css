@@ -233,8 +233,16 @@ main {
 
 /* Footer section styles */
 
+.footer-text{
+    text-align: left;
+}
+
+.footer-description{
+    width: 562px;
+}
 footer {
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 230px 130px 230px 130px;
     margin-top: 100px;
@@ -257,6 +265,8 @@ textarea {
     border-radius: 5px;
     background:#FFF;
     border: 0px;
-    width: 100%;
+    width: 461px;
+
+
 }
 
